@@ -1,0 +1,5 @@
+<div class="item-details"  *ngIf="selectedItem">
+  <div class="detail-item"><span>View Count: </span>{{selectedItem.viewCount}}</div>
+  <div class="detail-item"><span>Score: </span>{{selectedItem.score}}</div>
+  <div class="detail-item"><span>Link: </span><a href="{{selectedItem.link}}">{{selectedItem.link}}</a></div>
+</div>

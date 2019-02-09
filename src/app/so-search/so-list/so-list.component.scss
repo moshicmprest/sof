@@ -1,0 +1,16 @@
+.search-panel {
+    input {
+        margin: 0 25px 10px 0;        
+        width: 70%;
+    }
+}
+.search-results {
+    display: flex;
+    flex-direction: column;
+    .search-item {
+        word-break:break-all;
+        border: 1px solid #888;
+        cursor: pointer;
+        padding: 10px;
+    }
+}

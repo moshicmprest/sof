@@ -1,0 +1,9 @@
+<div class="search-panel">
+    <input type="text" [(ngModel)]="searchText">
+    <button (click)="search()">Search</button>
+</div>
+<div class="search-results">
+    <div *ngFor="let item of items" class="search-item" (click)="itemSelected(item)">
+        {{item.title | shorten:30}}
+    </div>
+</div>

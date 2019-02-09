@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    .header {
+        text-align: center;
+    }
+    .main {
+        display: flex;
+        flex-direction: row;
+        .list {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            margin: 10px;
+            min-width: 20%;
+        }
+        .details {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 2;
+            margin: 40px;
+            width: 80%;
+            padding: 10px;
+        }
+    }
+}
